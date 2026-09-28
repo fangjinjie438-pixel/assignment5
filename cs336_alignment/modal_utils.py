@@ -52,11 +52,11 @@ image = (
     .add_local_dir("data", f"{REMOTE_ROOT}/data")
     .add_local_dir("experiments", f"{REMOTE_ROOT}/experiments")
     .add_local_dir("scripts", f"{REMOTE_ROOT}/scripts")
+    # 新增的solutions的这一行，删除了关于AGENTS.md和CLAUDE.md的路径
+    .add_local_dir("solutions", f"{REMOTE_ROOT}/solutions")
     .add_local_file("pyproject.toml", f"{REMOTE_ROOT}/pyproject.toml")
     .add_local_file("uv.lock", f"{REMOTE_ROOT}/uv.lock")
 )
-image = image.add_local_file("AGENTS.md", f"{REMOTE_ROOT}/AGENTS.md")
-image = image.add_local_file("CLAUDE.md", f"{REMOTE_ROOT}/CLAUDE.md")
 
 
 def quote_command(command: list[str]) -> str:
