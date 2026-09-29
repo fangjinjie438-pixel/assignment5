@@ -1,0 +1,12 @@
+{
+  "question_only": {
+    "num_examples": 2,
+    "correct_and_formatted": 0,
+    "formatted_but_incorrect": 0,
+    "unformatted_and_incorrect": 2,
+    "mean_reward": 0.0,
+    "mean_format_reward": 0.0,
+    "mean_answer_reward": 0.0,
+    "mean_response_length": 64.0
+  }
+}
