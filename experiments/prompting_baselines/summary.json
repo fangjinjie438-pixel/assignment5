@@ -1,0 +1,32 @@
+{
+  "question_only": {
+    "num_examples": 1024,
+    "correct_and_formatted": 3,
+    "formatted_but_incorrect": 177,
+    "unformatted_and_incorrect": 844,
+    "mean_reward": 0.0029296875,
+    "mean_format_reward": 0.17578125,
+    "mean_answer_reward": 0.0029296875,
+    "mean_response_length": 267.37109375
+  },
+  "r1_zero": {
+    "num_examples": 1024,
+    "correct_and_formatted": 1,
+    "formatted_but_incorrect": 525,
+    "unformatted_and_incorrect": 498,
+    "mean_reward": 0.0009765625,
+    "mean_format_reward": 0.513671875,
+    "mean_answer_reward": 0.0009765625,
+    "mean_response_length": 111.2265625
+  },
+  "r1_zero_three_shot": {
+    "num_examples": 1024,
+    "correct_and_formatted": 203,
+    "formatted_but_incorrect": 761,
+    "unformatted_and_incorrect": 60,
+    "mean_reward": 0.1982421875,
+    "mean_format_reward": 0.94140625,
+    "mean_answer_reward": 0.1982421875,
+    "mean_response_length": 108.638671875
+  }
+}
